@@ -1,0 +1,157 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+}
+
+.marco {
+    border: 5px solid darkgreen;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedor {
+    position: relative;
+    width: 220px;
+    height: 280px;
+}
+
+.circulo {
+    position: absolute;
+    border-radius: 50%;
+}
+
+.cabeza {
+    width: 80px;
+    height: 80px;
+    background-color: purple;
+    top: 20px;
+    left: 70px;
+}
+
+.oreja {
+    width: 30px;
+    height: 30px;
+    background-color: purple;
+}
+
+.oreja.izquierda {
+    top: 0px;
+    left: 60px;
+}
+
+.oreja.derecha {
+    top: 0px;
+    left: 130px;
+}
+
+.punto-oreja {
+    width: 10px;
+    height: 10px;
+    background-color: lightyellow;
+}
+
+.punto-oreja.izquierda {
+    top: 10px;
+    left: 72px;
+}
+
+.punto-oreja.derecha {
+    top: 10px;
+    left: 142px;
+}
+
+.ojo {
+    width: 15px;
+    height: 15px;
+    background-color: lightyellow;
+}
+
+.ojo.izquierdo {
+    top: 40px;
+    left: 85px;
+}
+
+.ojo.derecho {
+    top: 40px;
+    left: 120px;
+}
+
+.nariz {
+    width: 8px;
+    height: 6px;
+    background-color: lightyellow;
+    top: 60px;
+    left: 105px;
+}
+
+.boca {
+    width: 40px;
+    height: 7px;
+    background-color: lightyellow;
+    top: 70px;
+    left: 90px;
+    border-radius: 50%;
+}
+
+.cuerpo {
+    width: 120px;
+    height: 120px;
+    background-color: purple;
+    top: 100px;
+    left: 50px;
+}
+
+.barriga {
+    width: 50px;
+    height: 70px;
+    background-color: lightgreen;
+    top: 125px;
+    left: 85px;
+}
+
+.brazo {
+    width: 70px;
+    height: 20px;
+    background-color: peachpuff;
+    border-radius: 50%;
+}
+
+.brazo.izquierdo {
+    top: 120px;
+    left: -10px;
+}
+
+.brazo.derecho {
+    top: 120px;
+    left: 160px;
+}
+
+.pierna {
+    width: 50px;
+    height: 20px;
+    background-color: peachpuff;
+    border-radius: 50%;
+}
+
+.pierna.izquierda {
+    top: 210px;
+    left: 50px;
+}
+
+.pierna.derecha {
+    top: 210px;
+    left: 120px;
+}
+
+.texto {
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 10px;
+}
